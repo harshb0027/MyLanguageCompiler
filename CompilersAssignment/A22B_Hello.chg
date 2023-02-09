@@ -1,0 +1,15 @@
+~ Chandigarh Example ~
+|>
+ Calculating the volume of sphere
+<|
+_main {
+	Float PI, r, vol;
+	Float monika;
+	CODE{
+		PI equ 3.14;
+		Enter(r);
+		vol equ 4.0 / 3.0 * PI * (r * r * r);
+		monika equ (56.0 * vol) + r + PI;
+		Display(Vol);
+	}
+}

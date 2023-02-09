@@ -1,0 +1,11 @@
+~ SOFIA Example ~
+~  The program is "lexically" correct ~
+~  and should not generate any error ~
+_main {
+	Float a, b, c, fgjhrriu, monika;
+	Float harsh;
+	Float compilers;
+	CODE {
+	  Display("Hello World");
+	}
+}

@@ -1,0 +1,33 @@
+Reading file A32B_Hello.chg ....Please wait
+
+Printing input buffer parameters:
+
+The capacity of the buffer is:  200
+The current size of the buffer is:  142
+
+Printing input buffer contents:
+
+~ Chandigarh Example ~
+|>
+  The program is "lexically" correct
+  and should not generate any error 
+<|
+_main() {
+	Display("Hello World!");
+}
+
+Parsing the source file...
+
+Chandigarh: Optional Variable List Declarations parsed
+Chandigarh: Data Session parsed
+Chandigarh: Output variable list parsed
+Chandigarh: Output statement parsed
+Chandigarh: Statement parsed
+Chandigarh: Statements parsed
+Chandigarh: Optional statements parsed
+Chandigarh: Code Session parsed
+Chandigarh: Program parsed
+Chandigarh: Source file parsed
+CompilersAssignment.exe: OPTIONS [1] - Buffer, [2] - Scanner, [3] - Parser
+
+Collecting garbage...

@@ -1,0 +1,37 @@
+~ Chandigarh Example ~
+|>
+ The program is "lexically" correct and should not generate any error 
+(based on Platypus from Svillen Ranev)
+<|
+
+_main(){
+	int i;
+	float a, sum;
+	String text;
+	
+	a=+1.2;
+	sum equ 7.87050 ;
+	_enter(a,sum);
+	i equ 0;
+	#while (i < 32767 || i = 32767){
+		i equ i + 2;
+		a equ
+			a*i/0.5 ;
+			sum equ sum + a - 1 ;
+		};
+		#if (text = "")
+		#then {
+			text equ "prog" ++ "ram";
+		}
+		#else {
+			$text equ text ++ "ram";
+		}
+		_display("\* This is a program -:)-<-<-- \*");
+		_display(text);
+		#if (text != "program"&&sum=8.0||i>10)
+		#then {
+			_display(sum);
+			_display();
+		}
+		#else{}
+}

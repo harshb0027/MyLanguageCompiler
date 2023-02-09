@@ -1,0 +1,9 @@
+~ CHANDIGARH Example (Volume of a sphere) ~
+_main() {
+	Float PI, r, Vol;
+	r equ -4;
+	PI equ 3.14;
+	Enter(r);
+	Vol equ 4.0 / 3.0 * PI * (r * r * r);
+	Display(Vol);
+}
